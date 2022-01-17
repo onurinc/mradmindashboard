@@ -1,6 +1,6 @@
 import CommentDashboard from "./Pages/CommentDashboard";
 import ReviewsDashboard from "./Pages/ReviewsDashboard";
-// import Login from ".Pages/Login";
+import Login from "./Pages/Login";
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,9 +14,9 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          {/* <Route exact path="/">
-          <Login />
-        </Route> */}
+          <Route exact path="/">
+            <Login />
+          </Route>
           <Route exact path="/commentsdashboard">
             <CommentDashboard />
           </Route>
