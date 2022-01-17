@@ -12,6 +12,17 @@ import { Modal, ModalBody, ModalFooter, ModalHeader } from "reactstrap";
 
 const url = `https://localhost:4443/api/Comments/`;
 
+axios.interceptors.request.use(
+  (config) => {
+    const token = window.localStorage.getItem("token");
+    if (token) config.headers.Authorization = `Bearer ${token}`;
+    return config;
+  },
+  (error) => {
+    return Promise.reject(error);
+  }
+);
+
 class CommentDashBoard extends Component {
   state = {
     data: [],
