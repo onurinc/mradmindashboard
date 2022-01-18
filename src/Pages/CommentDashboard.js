@@ -3,12 +3,9 @@ import axios from "axios";
 // import "./Styling/CommentsDashboard.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faEdit,
-  faGlassWhiskey,
-  faTrashAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 import { Modal, ModalBody, ModalFooter, ModalHeader } from "reactstrap";
+import NavMenu from "../NavMenu";
 
 const url = `https://localhost:4443/api/Comments/`;
 
@@ -95,7 +92,8 @@ class CommentDashBoard extends Component {
     // const { form } = this.state;
     const { form } = this.state;
     return (
-      <div className="App">
+      <div className="App" style={{ padding: "50px" }}>
+        <NavMenu></NavMenu>
         <h1>Comments Admin Dashboard</h1>
         {/* <button
           className="btn btn-success"

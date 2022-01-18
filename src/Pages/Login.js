@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Button, Form, FormGroup, Input, Label } from "reactstrap";
+import { Button, Form, FormGroup, Input, Label, Nav } from "reactstrap";
+import NavMenu from "../NavMenu";
 import "./Styling/Login.css";
 
 function Login() {
@@ -32,6 +33,7 @@ function Login() {
 
   return (
     <div className="Login">
+      <NavMenu></NavMenu>
       <h2>Sign In</h2>
       <Form className="form">
         <FormGroup>
