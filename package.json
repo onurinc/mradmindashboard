@@ -1,5 +1,6 @@
 {
   "name": "mradmindashboardfront",
+  "homepage": "https://onurinc.github.io/mradmindashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,11 +20,13 @@
     "web-vitals": "^2.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "cypress:open": "cypress open"  
+    "cypress:open": "cypress open"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^9.3.1"
+    "cypress": "^9.3.1",
+    "gh-pages": "^3.2.3"
   }
 }
