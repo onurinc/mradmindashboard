@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mradmindashboardfront/static/css/main.54b8b7bd.css",
-    "main.js": "/mradmindashboardfront/static/js/main.51953140.js",
-    "static/js/787.b073847e.chunk.js": "/mradmindashboardfront/static/js/787.b073847e.chunk.js",
-    "index.html": "/mradmindashboardfront/index.html",
-    "main.54b8b7bd.css.map": "/mradmindashboardfront/static/css/main.54b8b7bd.css.map",
-    "main.51953140.js.map": "/mradmindashboardfront/static/js/main.51953140.js.map",
-    "787.b073847e.chunk.js.map": "/mradmindashboardfront/static/js/787.b073847e.chunk.js.map"
+    "main.css": "/mradmindashboard/static/css/main.54b8b7bd.css",
+    "main.js": "/mradmindashboard/static/js/main.540cc3c5.js",
+    "static/js/787.b073847e.chunk.js": "/mradmindashboard/static/js/787.b073847e.chunk.js",
+    "index.html": "/mradmindashboard/index.html",
+    "main.54b8b7bd.css.map": "/mradmindashboard/static/css/main.54b8b7bd.css.map",
+    "main.540cc3c5.js.map": "/mradmindashboard/static/js/main.540cc3c5.js.map",
+    "787.b073847e.chunk.js.map": "/mradmindashboard/static/js/787.b073847e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54b8b7bd.css",
-    "static/js/main.51953140.js"
+    "static/js/main.540cc3c5.js"
   ]
 }
