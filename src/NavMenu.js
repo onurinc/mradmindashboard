@@ -7,7 +7,6 @@ import {
   Navbar,
   Collapse,
   Nav,
-  NavbarText,
 } from "reactstrap";
 
 const token = localStorage.getItem("token");
@@ -36,7 +35,11 @@ function NavMenu() {
                   </NavItem>
                 </>
               ) : (
-                <></>
+                <>
+                  <NavItem>
+                    <NavLink href="/">Logout</NavLink>
+                  </NavItem>
+                </>
               )}
             </Nav>
           </Collapse>
