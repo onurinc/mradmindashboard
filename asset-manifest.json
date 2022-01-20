@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/onurinc/mradmindashboard/static/css/main.54b8b7bd.css",
-    "main.js": "/onurinc/mradmindashboard/static/js/main.bf3c44d1.js",
-    "static/js/787.b073847e.chunk.js": "/onurinc/mradmindashboard/static/js/787.b073847e.chunk.js",
-    "index.html": "/onurinc/mradmindashboard/index.html",
-    "main.54b8b7bd.css.map": "/onurinc/mradmindashboard/static/css/main.54b8b7bd.css.map",
-    "main.bf3c44d1.js.map": "/onurinc/mradmindashboard/static/js/main.bf3c44d1.js.map",
-    "787.b073847e.chunk.js.map": "/onurinc/mradmindashboard/static/js/787.b073847e.chunk.js.map"
+    "main.css": "/onurinc/mradmindashboardfront/static/css/main.54b8b7bd.css",
+    "main.js": "/onurinc/mradmindashboardfront/static/js/main.daa04543.js",
+    "static/js/787.b073847e.chunk.js": "/onurinc/mradmindashboardfront/static/js/787.b073847e.chunk.js",
+    "index.html": "/onurinc/mradmindashboardfront/index.html",
+    "main.54b8b7bd.css.map": "/onurinc/mradmindashboardfront/static/css/main.54b8b7bd.css.map",
+    "main.daa04543.js.map": "/onurinc/mradmindashboardfront/static/js/main.daa04543.js.map",
+    "787.b073847e.chunk.js.map": "/onurinc/mradmindashboardfront/static/js/787.b073847e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54b8b7bd.css",
-    "static/js/main.bf3c44d1.js"
+    "static/js/main.daa04543.js"
   ]
 }
