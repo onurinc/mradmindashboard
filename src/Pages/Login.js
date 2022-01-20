@@ -25,7 +25,7 @@ function Login() {
         localStorage.setItem("loggedIn", "true");
         window.location = "/commentsdashboard";
       })
-      //Then with the error genereted...
+      //Then with the error generated...
       .catch((error) => {
         console.error("Error:", error);
       });
