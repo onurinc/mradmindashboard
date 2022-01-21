@@ -11,6 +11,10 @@ import {
 
 const token = localStorage.getItem("token");
 
+function logOut() {
+  window.localStorage.clear();
+}
+
 function NavMenu() {
   return (
     <>
@@ -37,7 +41,9 @@ function NavMenu() {
               ) : (
                 <>
                   <NavItem>
-                    <NavLink href="/">Logout</NavLink>
+                    <NavLink onClick={logOut} href="/">
+                      Logout
+                    </NavLink>
                   </NavItem>
                 </>
               )}
